@@ -63,7 +63,7 @@ select_action() {
     if [ "$can_update" -eq 1 ]; then
         echo "  2) Atualizar"
     else
-        echo "  2) Atualizar (indisponivel - nenhuma instalacao encontrada em $XUI_HOME)"
+        echo "  2) Atualizar (nenhuma instalacao encontrada em $XUI_HOME)"
     fi
     echo ""
 
@@ -87,7 +87,7 @@ select_version() {
     echo ""
     echo "Selecione a versao:"
     echo "  1) 1.5.5"
-    echo "  2) 1.5.12 (Beta)"
+    echo "  2) 1.5.12"
     echo "  3) 1.5.13"
     echo ""
 

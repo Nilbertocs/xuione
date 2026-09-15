@@ -1,8 +1,7 @@
 # XUI One
 
-Instruções de instalação e atualização do painel XUI (build adaptado 22.04-24.04).
+Instruções de instalação e atualização do painel XUI (20.04-24.04).
 
-Os arquivos estão hospedados como [Releases](https://github.com/Nilbertocs/xuione/releases) deste repositório (tag `v1.5.13`).
 
 ## Instalação rápida (recomendado)
 
@@ -29,7 +28,8 @@ O script baixa o pacote certo direto desta release, extrai, ajusta as permissõe
 
 ## Licença
 
-A chave de licença é emitida pela [NNetwork](https://portal.nnetwork.net/), revendedora credenciada do XUI. Acesse o portal para gerar/consultar sua licença antes de instalar ou atualizar.
+Obtenha sua chave de licença no link [NNetwork](https://portal.nnetwork.net/order/tools/licenca-xuione).
+Acesse o portal para gerar/consultar sua licença antes de instalar ou atualizar.
 
 ## Dicas para manter o painel estável e com bom desempenho
 
