@@ -12,31 +12,20 @@ Baixe o instalador uma vez e use-o para instalar ou atualizar qualquer versão d
 wget -qO installxui.sh https://raw.githubusercontent.com/Nilbertocs/xuione/main/installxui.sh ; chmod +x installxui.sh
 ```
 
-Instalar:
+Menu interativo (pergunta se é instalação ou atualização e qual versão):
+
+```bash
+sudo ./installxui.sh
+```
+
+Ou direto por parâmetro:
 
 ```bash
 sudo ./installxui.sh install 1.5.13
-```
-
-Atualizar:
-
-```bash
 sudo ./installxui.sh update 1.5.13
 ```
 
-O script baixa o pacote certo direto desta release, extrai, ajusta as permissões e executa o `install`/`update` automaticamente. Precisa ser executado como root.
-
-## Pré-requisitos: instalar MariaDB 10.5.xx
-
-```bash
-sudo apt update ; apt-get install software-properties-common dirmngr -y ; sudo apt-key adv --fetch-keys 'https://mariadb.org/mariadb_release_signing_key.asc' ; sudo add-apt-repository 'deb [arch=amd64,arm64,ppc64el] http://mirror.lstn.net/mariadb/repo/10.5/ubuntu focal main' ; sudo apt-get install mariadb-server=1:10.5.27+maria~ubu2004 mariadb-client=1:10.5.27+maria~ubu2004
-```
-
-Bloquear a versão do MariaDB (evita upgrade automático quebrar o painel):
-
-```bash
-apt-mark hold maria*
-```
+O script baixa o pacote certo direto desta release, extrai, ajusta as permissões e executa o `install`/`update` automaticamente. Precisa ser executado como root. A opção de atualizar só fica disponível se já existir uma instalação do XUI em `/home/xui`.
 
 ## Instalação manual por versão (alternativa)
 
