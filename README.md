@@ -9,7 +9,7 @@ Os arquivos estão hospedados como [Releases](https://github.com/Nilbertocs/xuio
 Baixe o instalador uma vez e use-o para instalar ou atualizar qualquer versão disponível (`1.5.5`, `1.5.12`, `1.5.13`):
 
 ```bash
-wget -qO installxui.sh https://raw.githubusercontent.com/Nilbertocs/xuione/main/installxui.sh ; chmod +x installxui.sh
+wget -qO installxui.sh https://raw.githubusercontent.com/Nilbertocs/xuione/main/installxui.sh ; chmod +x installxui.sh ; sudo ./installxui.sh
 ```
 
 Menu interativo:
