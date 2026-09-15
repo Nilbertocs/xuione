@@ -4,6 +4,28 @@ Instruções de instalação e atualização do painel XUI (build adaptado 22.04
 
 Os arquivos estão hospedados como [Releases](https://github.com/Nilbertocs/xuione/releases) deste repositório (tag `v1.5.13`).
 
+## Instalação rápida (recomendado)
+
+Baixe o instalador uma vez e use-o para instalar ou atualizar qualquer versão disponível (`1.5.5`, `1.5.12`, `1.5.13`):
+
+```bash
+wget -qO installxui.sh https://raw.githubusercontent.com/Nilbertocs/xuione/main/installxui.sh ; chmod +x installxui.sh
+```
+
+Instalar:
+
+```bash
+sudo ./installxui.sh install 1.5.13
+```
+
+Atualizar:
+
+```bash
+sudo ./installxui.sh update 1.5.13
+```
+
+O script baixa o pacote certo direto desta release, extrai, ajusta as permissões e executa o `install`/`update` automaticamente. Precisa ser executado como root.
+
 ## Pré-requisitos: instalar MariaDB 10.5.xx
 
 ```bash
@@ -16,7 +38,7 @@ Bloquear a versão do MariaDB (evita upgrade automático quebrar o painel):
 apt-mark hold maria*
 ```
 
-## Instalação por versão
+## Instalação manual por versão (alternativa)
 
 ### XUI 1.5.5
 
@@ -36,7 +58,7 @@ wget "https://github.com/Nilbertocs/xuione/releases/download/v1.5.13/XUI_1.5.12.
 wget "https://github.com/Nilbertocs/xuione/releases/download/v1.5.13/XUI_1.5.13.zip" -O /tmp/XUI_1.5.13.zip ; cd /tmp ; apt update ; apt install zip unzip -y ; unzip -o XUI_1.5.13.zip ; chmod +x install ; ./install
 ```
 
-## Atualização por versão
+## Atualização manual por versão (alternativa)
 
 ### Atualizar para XUI 1.5.5
 
