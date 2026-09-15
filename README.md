@@ -21,19 +21,19 @@ apt-mark hold maria*
 ### XUI 1.5.5
 
 ```bash
-wget "https://github.com/Nilbertocs/xuione/releases/download/v1.5.13/XUI_1.5.5.zip" -O /tmp/XUI_1.5.5.zip ; cd /tmp ; apt update ; apt install zip unzip -y ; unzip XUI_1.5.5.zip ; ./install
+wget "https://github.com/Nilbertocs/xuione/releases/download/v1.5.13/XUI_1.5.5.zip" -O /tmp/XUI_1.5.5.zip ; cd /tmp ; apt update ; apt install zip unzip -y ; unzip -o XUI_1.5.5.zip ; chmod +x install ; ./install
 ```
 
 ### XUI 1.5.12 (Beta)
 
 ```bash
-wget "https://github.com/Nilbertocs/xuione/releases/download/v1.5.13/XUI_1.5.12.zip" -O /tmp/XUI_1.5.12.zip ; cd /tmp ; apt update ; apt install zip unzip -y ; unzip XUI_1.5.12.zip ; ./install
+wget "https://github.com/Nilbertocs/xuione/releases/download/v1.5.13/XUI_1.5.12.zip" -O /tmp/XUI_1.5.12.zip ; cd /tmp ; apt update ; apt install zip unzip -y ; unzip -o XUI_1.5.12.zip ; chmod +x install ; ./install
 ```
 
 ### XUI 1.5.13
 
 ```bash
-wget "https://github.com/Nilbertocs/xuione/releases/download/v1.5.13/XUI_1.5.13.zip" -O /tmp/XUI_1.5.13.zip ; cd /tmp ; apt update ; apt install zip unzip -y ; unzip XUI_1.5.13.zip ; ./install
+wget "https://github.com/Nilbertocs/xuione/releases/download/v1.5.13/XUI_1.5.13.zip" -O /tmp/XUI_1.5.13.zip ; cd /tmp ; apt update ; apt install zip unzip -y ; unzip -o XUI_1.5.13.zip ; chmod +x install ; ./install
 ```
 
 ## Atualização por versão
@@ -41,19 +41,19 @@ wget "https://github.com/Nilbertocs/xuione/releases/download/v1.5.13/XUI_1.5.13.
 ### Atualizar para XUI 1.5.5
 
 ```bash
-wget "https://github.com/Nilbertocs/xuione/releases/download/v1.5.13/XUI_1.5.5_UPDATE.zip" -O /tmp/XUI_1.5.5_UPDATE.zip ; cd /tmp ; unzip XUI_1.5.5_UPDATE.zip ; ./update
+wget "https://github.com/Nilbertocs/xuione/releases/download/v1.5.13/XUI_1.5.5_UPDATE.zip" -O /tmp/XUI_1.5.5_UPDATE.zip ; cd /tmp ; unzip -o XUI_1.5.5_UPDATE.zip ; chmod +x update ; ./update
 ```
 
 ### Atualizar para XUI 1.5.12
 
 ```bash
-wget "https://github.com/Nilbertocs/xuione/releases/download/v1.5.13/XUI_1.5.12_UPDATE.zip" -O /tmp/XUI_1.5.12_UPDATE.zip ; cd /tmp ; unzip XUI_1.5.12_UPDATE.zip ; ./update
+wget "https://github.com/Nilbertocs/xuione/releases/download/v1.5.13/XUI_1.5.12_UPDATE.zip" -O /tmp/XUI_1.5.12_UPDATE.zip ; cd /tmp ; unzip -o XUI_1.5.12_UPDATE.zip ; chmod +x update ; ./update
 ```
 
 ### Atualizar para XUI 1.5.13
 
 ```bash
-wget "https://github.com/Nilbertocs/xuione/releases/download/v1.5.13/XUI_1.5.13_UPDATE.zip" -O /tmp/XUI_1.5.13_UPDATE.zip ; cd /tmp ; unzip XUI_1.5.13_UPDATE.zip ; ./update
+wget "https://github.com/Nilbertocs/xuione/releases/download/v1.5.13/XUI_1.5.13_UPDATE.zip" -O /tmp/XUI_1.5.13_UPDATE.zip ; cd /tmp ; unzip -o XUI_1.5.13_UPDATE.zip ; chmod +x update ; ./update
 ```
 
 ## Licença
